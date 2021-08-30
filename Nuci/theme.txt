@@ -1,5 +1,5 @@
 title-text: ""
-desktop-image: "background.jpeg"
+desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
 terminal-box: "terminal_box_*.png"
@@ -10,15 +10,15 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + boot_menu {
-  left = 30%
+  left = 36%
   top = 30%
-  width = 45%
+  width = 28%
   height = 60%
   item_font = "Unifont Regular 16"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
-  item_height = 26
-  item_spacing = 14
+  item_height = 32
+  item_spacing = 16
   selected_item_pixmap_style = "select_*.png"
 }
 
