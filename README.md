@@ -1,27 +1,67 @@
-[![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/fund.html) [![Latest GitHub release](https://img.shields.io/github/v/release/hmlendea/grub2-theme-nuci)](https://github.com/hmlendea/grub2-theme-nuci/releases/latest)
+[![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/fund.html)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://gnu.org/licenses/gpl-3.0)
 
-# About
+# GRUB2 Theme Nuci
 
-Personal GRUB2 theme based on Vimix.
+A simple theme for GRUB2 based on the Vimix aesthetic. The repository includes the theme definition and the icon assets required to apply the `Nuci` theme.
 
-# Installation
+## 📑 Table of Contents
 
-## PKGBUILD
+- [Features](#-features)
+- [Usage](#-usage)
+- [Installation](#-installation)
+- [Development](#-development)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Support](#-support)
 
-Install it using [this PKGBUILD](https://github.com/hmlendea/PKGBUILDs/tree/master/pkg/grub2-theme-nuci).
+## ✨ Features
 
-## Manual
+- Vimix-inspired GRUB2 theme styling
+- Complete theme definition in `Nuci/theme.txt`
+- Included icon assets under `Nuci/icons/`
+- Manual installation or distribution via AUR/PKGBUILD
 
-Copy the `Nuci` directory into `/usr/share/grub/themes` and make it executable:
+## 📦 Installation
+
+Install the theme by copying the `Nuci` directory into the GRUB themes folder and then configure GRUB to use it.
+
 ```bash
-cp -r "Nuci" "/usr/share/grub/themes/"
+sudo cp -r "Nuci" "/usr/share/grub/themes/"
+sudo chmod -R 755 "/usr/share/grub/themes/Nuci"
 ```
 
-Set the GRUB_THEME setting in `/etc/default/grub`:
+Edit `/etc/default/grub` and set:
+
 ```bash
-...
 GRUB_THEME=/usr/share/grub/themes/Nuci/theme.txt
-...
 ```
 
-Update your GRUB configuration using `grub-mkconfig` or `update-grub`
+Regenerate the boot configuration:
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+## 🤝 Contributing
+
+You are welcome to bring any suggestion, feedback or modification to this project.
+
+When doing so, please:
+- Maintain cross-platform compatibility
+- Maintain the pull requests as focused and consistent with the existing code style
+- Revise the documentation when behaviour changes
+- Properly test all changes
+
+## 💝 Support
+
+Discovered a problem or have a suggestion? [Open an issue](https://github.com/hmlendea/grub2-theme-nuci/issues)!
+
+If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
+
+[![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+
+## 📄 License
+
+Licensed under the `GPL-3.0-or-later`.
+See [LICENSE](./LICENSE) for details.
