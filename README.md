@@ -8,12 +8,10 @@ A simple theme for GRUB2 based on the Vimix aesthetic. The repository includes t
 ## 📑 Table of Contents
 
 - [Features](#-features)
-- [Usage](#-usage)
 - [Installation](#-installation)
-- [Development](#-development)
 - [Contributing](#-contributing)
-- [License](#-license)
 - [Support](#-support)
+- [License](#-license)
 
 ## ✨ Features
 
