@@ -1,31 +1,33 @@
-[![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/fund.html)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://gnu.org/licenses/gpl-3.0)
+[![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/funding)
+[![License](https://img.shields.io/github/license/hmlendea/grub2-theme-nuci)](https://github.com/hmlendea/grub2-theme-nuci/blob/master/LICENSE)
 
 # GRUB2 Theme Nuci
 
-A simple theme for GRUB2 based on the Vimix aesthetic. The repository includes the theme definition and the icon assets required to apply the `Nuci` theme.
+A static GRUB2 theme package providing a Vimix-inspired visual style for the GRUB bootloader. The repository contains the theme definition (`Nuci/theme.txt`) and all required icon assets (`Nuci/icons/`).
 
 ## 📑 Table of Contents
 
-- [Features](#-features)
+- [Capabilities](#-capabilities)
+- [Usage](#-usage)
 - [Installation](#-installation)
-- [Contributing](#-contributing)
-- [Support](#-support)
-- [Privacy and Data](#-privacy-and-data)
-- [Security](#-security)
-- [Code of Conduct](#-code-of-conduct)
+- [Compatibility](#-compatibility)
 - [Architecture](#-architecture)
 - [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [Code of Conduct](#-code-of-conduct)
+- [Security](#-security)
+- [Privacy and Data](#-privacy-and-data)
+- [Project Engagement](#-project-engagement)
 - [License](#-license)
 
-## ✨ Features
+## ✨ Capabilities
 
 - Vimix-inspired GRUB2 theme styling
 - Complete theme definition in `Nuci/theme.txt`
 - Included icon assets under `Nuci/icons/`
 - Manual installation or distribution via AUR/PKGBUILD
 
-## 📦 Installation
+## 🚀 Usage
 
 Install the theme by copying the `Nuci` directory into the GRUB themes folder and then configure GRUB to use it.
 
@@ -46,50 +48,52 @@ Regenerate the boot configuration:
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-## 🤝 Contributing
+## 📦 Installation
 
-You are welcome to submit any suggestion, feedback, or modification to this project.
+[![Obtain it from AUR](https://raw.githubusercontent.com/hmlendea/readme-assets/master/install_from_aur.png)](https://aur.archlinux.org/packages/grub2-theme-nuci)
 
-When doing so, please:
-- Maintain cross-platform compatibility
-- Submit focused pull requests that conform to the existing code style
-- Maintain your branch synchronised with `master`
-- Revise the documentation when functionality changes
-- Properly test all modifications, including edge cases and error conditions
+### Package Manager Installation
 
-See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
+```bash
+paru -S grub2-theme-nuci
+```
 
-## 💝 Support
+or, if you use `yay`:
 
-Discovered a problem or have a suggestion? [Open an issue](https://github.com/hmlendea/grub2-theme-nuci/issues)!
+```bash
+yay -S grub2-theme-nuci
+```
 
-If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
+### Manual Installation
 
-[![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+```bash
+sudo cp -r "Nuci" "/usr/share/grub/themes/"
+sudo chmod -R 755 "/usr/share/grub/themes/Nuci"
+```
 
-## 🛡️ Privacy and Data
+Edit `/etc/default/grub` and set:
 
-GRUB2 Theme Nuci is a static theme package with no runtime logic, data collection, or telemetry.
+```bash
+GRUB_THEME=/usr/share/grub/themes/Nuci/theme.txt
+```
 
-For the detailed description of how the application handles privacy and personal data, see the [Privacy Statement](./PRIVACY.md).
+Regenerate the boot configuration:
 
-## 🔒 Security
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 
-GRUB2 Theme Nuci is a static theme package with no executable code, runtime logic, dependencies, or network connectivity.
+## 🧩 Compatibility
 
-For information on reporting security vulnerabilities, see the [Security Policy](./SECURITY.md).
-
-## 📜 Code of Conduct
-
-See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
+| Component | Supported Versions | Notes |
+|-----------|--------------------|-------|
+| GRUB2 | 2.04+ | Tested with GRUB 2.06 and 2.12 |
 
 ## 🏗️ Architecture
 
-GRUB2 Theme Nuci is a static theme package with no executable code, build pipeline, or runtime process.
+See the [Architecture Documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
 
-See the [Architecture Document](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
-
-## � Documentation
+## 📚 Documentation
 
 Comprehensive documentation is available in the [`docs/`](./docs/) directory:
 
@@ -109,7 +113,44 @@ Comprehensive documentation is available in the [`docs/`](./docs/) directory:
 
 See the [Documentation Index](./docs/INDEX.md) for the complete catalogue with descriptions.
 
+## 🤝 Contributing
+
+You are welcome to submit any suggestion, feedback, or modification to this project.
+
+When doing so, please:
+- Maintain cross-platform compatibility
+- Submit focused pull requests that conform to the existing code style
+- Maintain your branch synchronised with `master`
+- Revise the documentation when functionality changes
+- Properly test all modifications, including edge cases and error conditions
+
+See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
+
+## 📜 Code of Conduct
+
+See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
+
+## 🔒 Security
+
+GRUB2 Theme Nuci is a static theme package with no executable code, runtime logic, dependencies, or network connectivity.
+
+For information on reporting security vulnerabilities, see the [Security Policy](./SECURITY.md).
+
+## 🛡️ Privacy and Data
+
+GRUB2 Theme Nuci is a static theme package with no runtime logic, data collection, or telemetry.
+
+For the detailed description of how the application handles privacy and personal data, see the [Privacy Statement](./PRIVACY.md).
+
+## 💝 Project Engagement
+
+Discovered a problem or have a suggestion? [Open an issue](https://github.com/hmlendea/grub2-theme-nuci/issues)!
+
+If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
+
+[![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+
 ## 📄 License
 
-Licensed under the `GPL-3.0-or-later`.
-See [LICENSE](./LICENSE) for details.
+This project is being distributed under the `GPL-3.0-or-later`.
+See [LICENSE](./LICENSE) for additional information.
