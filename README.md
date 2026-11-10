@@ -14,6 +14,7 @@ A simple theme for GRUB2 based on the Vimix aesthetic. The repository includes t
 - [Privacy and Data](#-privacy-and-data)
 - [Security](#-security)
 - [Code of Conduct](#-code-of-conduct)
+- [Architecture](#-architecture)
 - [License](#-license)
 
 ## ✨ Features
@@ -80,6 +81,12 @@ For information on reporting security vulnerabilities, see the [Security Policy]
 ## 📜 Code of Conduct
 
 See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
+
+## 🏗️ Architecture
+
+GRUB2 Theme Nuci is a static theme package with no executable code, build pipeline, or runtime process.
+
+See the [Architecture Document](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
 
 ## 📄 License
 
