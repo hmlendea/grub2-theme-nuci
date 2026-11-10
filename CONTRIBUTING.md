@@ -12,6 +12,7 @@ This document covers the guidelines and processes for contributing to this proje
     - [Making Changes](#making-changes)
     - [Pull Request Guidelines](#pull-request-guidelines)
 - [Security](#-security)
+- [Code of Conduct](#-code-of-conduct)
 - [License](#-license)
 - [Getting Assistance](#-getting-assistance)
 
@@ -61,6 +62,10 @@ cd grub2-theme-nuci
 ## 🔒 Security
 
 Report security vulnerabilities per the [Security Policy](./SECURITY.md).
+
+## 📜 Code of Conduct
+
+This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## 📄 License
 
