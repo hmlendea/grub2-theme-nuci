@@ -11,6 +11,7 @@ This document covers the guidelines and processes for contributing to this proje
     - [Development Setup](#development-setup)
     - [Making Changes](#making-changes)
     - [Pull Request Guidelines](#pull-request-guidelines)
+- [Security](#-security)
 - [License](#-license)
 - [Getting Assistance](#-getting-assistance)
 
@@ -56,6 +57,10 @@ cd grub2-theme-nuci
 - Ensure the CI checks pass.
 
 
+
+## 🔒 Security
+
+Report security vulnerabilities per the [Security Policy](./SECURITY.md).
 
 ## 📄 License
 
