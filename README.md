@@ -43,13 +43,16 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## 🤝 Contributing
 
-You are welcome to bring any suggestion, feedback or modification to this project.
+You are welcome to submit any suggestion, feedback, or modification to this project.
 
 When doing so, please:
 - Maintain cross-platform compatibility
-- Maintain the pull requests as focused and consistent with the existing code style
-- Revise the documentation when behaviour changes
-- Properly test all changes
+- Submit focused pull requests that conform to the existing code style
+- Maintain your branch synchronised with `master`
+- Revise the documentation when functionality changes
+- Properly test all modifications, including edge cases and error conditions
+
+See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
 
 ## 💝 Support
 
