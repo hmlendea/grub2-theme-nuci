@@ -15,6 +15,7 @@ A simple theme for GRUB2 based on the Vimix aesthetic. The repository includes t
 - [Security](#-security)
 - [Code of Conduct](#-code-of-conduct)
 - [Architecture](#-architecture)
+- [Documentation](#-documentation)
 - [License](#-license)
 
 ## ✨ Features
@@ -87,6 +88,26 @@ See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct exp
 GRUB2 Theme Nuci is a static theme package with no executable code, build pipeline, or runtime process.
 
 See the [Architecture Document](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
+
+## � Documentation
+
+Comprehensive documentation is available in the [`docs/`](./docs/) directory:
+
+| Category | Documents |
+|----------|-----------|
+| **Getting Started** | [Quick Start](./docs/quick-start.md) |
+| **Architecture & Design** | [Architecture](./docs/architecture.md) • [Design Decisions](./docs/design-decisions.md) • [Invariants](./docs/invariants.md) |
+| **Repository Structure** | [Overview](./docs/repository-overview.md) • [Structure](./docs/repository-structure.md) |
+| **Theme Specification** | [Data Model](./docs/data-model.md) • [Theme Package](./docs/components/theme-package.md) |
+| **Integration & Deployment** | [Integrations](./docs/integrations.md) • [Build & Deployment](./docs/build-and-deployment.md) • [Compatibility Contracts](./docs/compatibility-contracts.md) |
+| **Operations** | [Testing](./docs/testing.md) • [Troubleshooting](./docs/troubleshooting.md) |
+| **Community & Maintenance** | [Change Guide](./docs/change-guide.md) • [Documentation Maintenance](./docs/documentation-maintenance.md) • [FAQ](./docs/faq.md) |
+| **API Reference** | [Index](./docs/api-reference/INDEX.md) • [Theme Descriptor](./docs/api-reference/theme-descriptor.md) • [Asset Specifications](./docs/api-reference/asset-specifications.md) • [Icon Mapping](./docs/api-reference/icon-mapping.md) |
+| **Behaviour** | [Boot Sequence](./docs/behaviour/boot-sequence.md) • [Rendering](./docs/behaviour/rendering.md) • [Input Handling](./docs/behaviour/input-handling.md) |
+| **Flows** | [Theme Load](./docs/flows/theme-load.md) • [Asset Load](./docs/flows/asset-load.md) • [Menu Render](./docs/flows/menu-render.md) |
+| **Additional** | [API Usage Examples](./docs/api-usage-examples.md) • [Ambiguities & Open Questions](./docs/ambiguities-and-open-questions.md) • [Configuration](./docs/configuration.md) • [Concurrency & Scheduling](./docs/concurrency-and-scheduling.md) • [Dependencies](./docs/dependencies.md) • [Error Handling](./docs/error-handling.md) • [Logging](./docs/logging.md) • [Security](./docs/security.md) • [State & Persistence](./docs/state-and-persistence.md) |
+
+See the [Documentation Index](./docs/INDEX.md) for the complete catalogue with descriptions.
 
 ## 📄 License
 
