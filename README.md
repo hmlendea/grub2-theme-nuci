@@ -11,6 +11,7 @@ A simple theme for GRUB2 based on the Vimix aesthetic. The repository includes t
 - [Installation](#-installation)
 - [Contributing](#-contributing)
 - [Support](#-support)
+- [Privacy and Data](#-privacy-and-data)
 - [License](#-license)
 
 ## ✨ Features
@@ -61,6 +62,12 @@ Discovered a problem or have a suggestion? [Open an issue](https://github.com/hm
 If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
 
 [![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+
+## 🛡️ Privacy and Data
+
+GRUB2 Theme Nuci is a static theme package with no runtime logic, data collection, or telemetry.
+
+For the detailed description of how the application handles privacy and personal data, see the [Privacy Statement](./PRIVACY.md).
 
 ## 📄 License
 
