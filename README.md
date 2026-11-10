@@ -13,6 +13,7 @@ A static GRUB2 theme package providing a Vimix-inspired visual style for the GRU
 - [Compatibility](#-compatibility)
 - [Architecture](#-architecture)
 - [Documentation](#-documentation)
+- [GitHub Actions](#-github-actions)
 - [Contributing](#-contributing)
 - [Code of Conduct](#-code-of-conduct)
 - [Security](#-security)
@@ -112,6 +113,12 @@ Comprehensive documentation is available in the [`docs/`](./docs/) directory:
 | **Additional** | [API Usage Examples](./docs/api-usage-examples.md) • [Ambiguities & Open Questions](./docs/ambiguities-and-open-questions.md) • [Configuration](./docs/configuration.md) • [Concurrency & Scheduling](./docs/concurrency-and-scheduling.md) • [Dependencies](./docs/dependencies.md) • [Error Handling](./docs/error-handling.md) • [Logging](./docs/logging.md) • [Security](./docs/security.md) • [State & Persistence](./docs/state-and-persistence.md) |
 
 See the [Documentation Index](./docs/INDEX.md) for the complete catalogue with descriptions.
+
+## ⚙️ GitHub Actions
+
+| Workflow | Purpose | What it does |
+|----------|---------|--------------|
+| [ GitHub Release ](https://github.com/hmlendea/grub2-theme-nuci/blob/master/.github/workflows/github-release.yml) | Release asset packaging | On published release, creates `grub2-theme-nuci_<version>.zip` from `Nuci/` contents, computes SHA1 checksum, and uploads the archive as a release asset with updated release notes |
 
 ## 🤝 Contributing
 
